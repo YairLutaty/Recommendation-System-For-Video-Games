@@ -19,19 +19,19 @@ The focus is on designing a system that can recommend **the 10 most relevant gam
 
 ---
 
-## 📊 Dataset  
+##  Dataset  
 
 We use the [Amazon Reviews 2023 – Video Games subset](https://amazon-reviews-2023.github.io/):  
 
 - **~50K reviews** of video games, all marked as confirmed purchases.  
 - Each review contains:  
-  - ⭐ Rating  
-  - 📝 Review text + embeddings  
-  - ✅ Sentiment (predicted via Hugging Face models)  
+  -  Rating  
+  -  Review text + embeddings  
+  -  Sentiment (predicted via Hugging Face models)  
 - Metadata includes:  
-  - 🎮 Game title and description  
-  - 📦 Features (platform, genre, publisher, etc.)  
-  - 🔗 Description embeddings (1024-d vectors for similarity search)  
+  -  Game title and description  
+  -  Features (platform, genre, publisher, etc.)  
+  -  Description embeddings (1024-d vectors for similarity search)  
 
 Users on average review ~5 games, giving us enough history for training and evaluation.  
 
@@ -57,7 +57,7 @@ Users on average review ~5 games, giving us enough history for training and eval
 
 ---
 
-## 📖 About the Notebook  
+## About the Notebook  
 
 The main work is in **`Data_Science_Workshop.ipynb`**, but GitHub’s viewer cannot fully render it due to the use of **ipywidgets** (interactive visualizations).  
 To make the project accessible, three versions are provided:  
@@ -79,7 +79,7 @@ To make the project accessible, three versions are provided:
 
 ---
 
-## 🚀 Run It Yourself  
+## Run It Yourself  
 
 For the best experience, run the notebook interactively:  
 
@@ -89,7 +89,7 @@ For the best experience, run the notebook interactively:
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 
 - **Languages & Tools**: Python, Jupyter, GitHub, Binder  
 - **Data Processing**: Pandas, NumPy  
