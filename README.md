@@ -3,7 +3,7 @@
 This project was developed as part of my **Data Science Workshop** at the Open University of Israel.  
 It explores how **machine learning and recommender systems** can be applied in the video game industry to improve player experience and support business goals.  
 
-The focus is on designing a system that can recommend **the 10 most relevant games for each user** — not just predicting ratings, but identifying games that a user is **most likely to purchase**.  
+The focus is on designing a system that can recommend **the 10 most relevant games for each user** - not just predicting ratings, but identifying games that a user is **most likely to purchase**.  
 
 ---
 
@@ -11,7 +11,7 @@ The focus is on designing a system that can recommend **the 10 most relevant gam
 
 - Build a **recommendation system** tailored for video games, a domain with unique challenges compared to movies or music (e.g., games are longer, expensive, and more diverse in style).  
 - Explore different recommendation approaches:  
-  - **Collaborative Filtering** (learning from user–item interactions)  
+  - **Collaborative Filtering** (learning from user-item interactions)  
   - **Content-Based Filtering** (using game metadata & embeddings)  
   - **Hybrid methods** (combining both)  
 - Incorporate **Natural Language Processing (NLP)** by analyzing review texts and sentiments to better capture player opinions.  
